@@ -1,0 +1,52 @@
+.maClasse {
+  padding: 2rem;
+  background-color: purple;
+  font-family: sans-serif;
+}
+
+.avatar {
+  border-radius: 50%;
+  transition: 0.2s all;
+  border: 3px solid purple;
+}
+
+.main{
+  background-color: green;
+  padding: 2rem;
+}
+
+.name{
+  padding-bottom: 1rem;
+  text-align: center;
+  transition: .2s all;
+}
+
+.name:hover{
+  letter-spacing: .05rem;
+}
+
+.avatar:hover {
+  border-radius: 0;
+}
+
+.boite {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+
+.Title {
+  text-align: center;
+}
+
+.btn {
+  background-color: blue;
+  transition: 0.2s all;
+}
+
+.btn:hover {
+  background-color: red;
+  cursor: pointer;
+  padding: 0.5rem;
+}
